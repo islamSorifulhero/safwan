@@ -2,72 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safwan Ahmed</title>
-    <!-- daisyUI tailwind -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safwan Ahmed</title>
+  <!-- daisyUI + tailwind -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-    <!-- header -->
-    <header class="mt-5">
-        <h1 class="text-center text-2xl font-bold">Md. Safwan Ahmed</h1>
-        <h3 class="text-center font-semibold text-xl mt-3"><span class="underline">Born:</span> 03-08-2025</h3>
-    </header>
+<body class="bg-gray-50">
+  <!-- header -->
+  <header class="mt-5">
+    <h1 class="text-center text-2xl font-bold">Md. Safwan Ahmed</h1>
+    <h3 class="text-center font-semibold text-xl mt-3">
+      <span class="underline">Born:</span> 03-08-2025
+    </h3>
+  </header>
 
-    <div class="flex justify-center mt-6">
-        <button id="tab-images" class="btn bg-sky-400 text-white font-bold rounded-r-none">Images</button>
-        <button id="tab-videos" class="btn bg-gray-200 text-black font-bold rounded-l-none">Videos</button>
-    </div>
+  <!-- Tabs -->
+  <div class="flex justify-center mt-6">
+    <button id="tab-images" class="btn bg-sky-400 text-white font-bold rounded-r-none">
+      Images
+    </button>
+    <button id="tab-videos" class="btn bg-gray-200 text-black font-bold rounded-l-none">
+      Videos
+    </button>
+  </div>
 
-    <!-- main -->
-    <main id="img" class="mt-5 w-11/12 mx-auto space-y-2">
-        <img class="w-full rounded-xl" src="./images 1/safwan-1.jpg" alt="">
-        <p class="text-center font-bold">At Rajshahi Medical</p>
-        <img class="w-full mt-8 rounded-xl" src="./images 1/safwan-2.jpg" alt="">
-        <img class="w-full rounded-xl" src="./images 1/safwan-3.jpg" alt="">
-        <img class="w-full rounded-xl" src="./images 1/safwan-4.jpg" alt="">
-        <img class="w-full rounded-xl" src="./images 1/safwan-5.jpg" alt="">
-        <img class="w-full rounded-xl" src="./images 1/safwan-6.jpg" alt="">
-        <img class="w-full rounded-xl" src="./images 1/safwan-7.jpg" alt="">
-        <img class="w-full rounded-xl" src="./images 1/safwan-8.jpg" alt="">
-        <img class="w-full rounded-xl" src="./images 1/safwan-9.jpg" alt="">
-        <img class="w-full rounded-xl" src="./images 1/safwan-10.jpg" alt="">
-        <img class="w-full rounded-xl" src="./images 1/safwan-11.jpg" alt="">
-    </main>
-    <!-- video section -->
-    <section id="video-section" class="hidden mt-5 w-11/12 mx-auto space-y-2">
-        <video class="w-full rounded-xl" controls src="video 1/safwan-1.mp4"></video>
-        <video class="w-full rounded-xl" controls src="video 1/safwan-2.mp4"></video>
-        <video class="w-full rounded-xl" controls src="video 1/safwan-3.mp4"></video>
-    </section>
+  <!-- Images Section -->
+  <main id="img" class="mt-5 w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-1.jpg" alt="">
+    <p class="col-span-full text-center font-bold">At Rajshahi Medical</p>
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-2.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-3.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-4.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-5.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-6.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-7.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-8.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-9.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-10.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-11.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-12.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-13.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-14.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-15.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-16.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-17.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-18.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-19.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-20.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-21.jpg" alt="">
+    <img class="w-full h-104 object-cover rounded-xl" src="./images 1/safwan-22.jpg" alt="">
+  </main>
 
-    <script>
-        const imgTab = document.getElementById("tab-images");
-        const vidTab = document.getElementById("tab-videos");
-        const images = document.getElementById("img");
-        const videos = document.getElementById("video-section");
+  <!-- Videos Section -->
+  <section id="video-section"
+    class="hidden mt-5 w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <video class="w-full h-104 object-cover rounded-xl" controls src="video 1/safwan-1.mp4"></video>
+    <video class="w-full h-104 object-cover rounded-xl" controls src="video 1/safwan-2.mp4"></video>
+    <video class="w-full h-104 object-cover rounded-xl" controls src="video 1/safwan-3.mp4"></video>
+    <video class="w-full h-104 object-cover rounded-xl" controls src="video 1/safwan-4.mp4"></video>
+  </section>
 
-        imgTab.addEventListener("click", () => {
-            images.classList.remove("hidden");
-            videos.classList.add("hidden");
-            imgTab.classList.add("bg-sky-400", "text-white");
-            imgTab.classList.remove("bg-gray-200", "text-black");
-            vidTab.classList.remove("bg-sky-400", "text-white");
-            vidTab.classList.add("bg-gray-200", "text-white");
-        })
+  <!-- Script -->
+  <script>
+    const imgTab = document.getElementById("tab-images");
+    const vidTab = document.getElementById("tab-videos");
+    const images = document.getElementById("img");
+    const videos = document.getElementById("video-section");
 
-        vidTab.addEventListener("click", () => {
-            videos.classList.remove("hidden");
-            images.classList.add("hidden");
-            vidTab.classList.add("bg-sky-400", "text-white");
-            vidTab.classList.remove("bg-gray-200", "text-black");
-            imgTab.classList.remove("bg-sky-400", "text-white");
-            imgTab.classList.add("bg-gray-200", "text-black");
-        });
-    </script>
+    imgTab.addEventListener("click", () => {
+      images.classList.remove("hidden");
+      videos.classList.add("hidden");
+
+      imgTab.classList.add("bg-sky-400", "text-white");
+      imgTab.classList.remove("bg-gray-200", "text-black");
+
+      vidTab.classList.remove("bg-sky-400", "text-white");
+      vidTab.classList.add("bg-gray-200", "text-black");
+    });
+
+    vidTab.addEventListener("click", () => {
+      videos.classList.remove("hidden");
+      images.classList.add("hidden");
+
+      vidTab.classList.add("bg-sky-400", "text-white");
+      vidTab.classList.remove("bg-gray-200", "text-black");
+
+      imgTab.classList.remove("bg-sky-400", "text-white");
+      imgTab.classList.add("bg-gray-200", "text-black");
+    });
+  </script>
 </body>
 
 </html>
